@@ -3,15 +3,14 @@ layout: default
 title: About
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# OUR VISION
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Using technology to strengthen society
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# OUR MISSION
 
+The name Pathway evokes purposeful movement. We aim for continual advancement, for our employees, our customers, and society at large.
 
-[jekyll-organization]: https://github.com/jekyll
+- Our employees are valued as people, not as resources. All employees are encouraged in professional and personal growth.
+- We treat our customers with honesty, openness and integrity.
+- Our products use the latest technology for the strengthening of society.
