@@ -30,7 +30,7 @@ url: "https://pathway-technologies.com" # the base hostname & protocol for your 
 #github_username:  pathway-technologies
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
