@@ -1,11 +1,14 @@
 ---
 # Supported page variables:
 # banner-image: Path to banner image
+# banner-text: Text to overlay banner image
 
 layout: base
 ---
 
 <main>
-  {% include banner.html %}
+  {% if page.banner-image %}
+    {% include banner.html image=page.banner-image text=page.banner-text %}
+  {% endif %}
   {{ content }}
 </main>
