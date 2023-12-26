@@ -1,20 +1,35 @@
-/* See https://www.bannerbear.com/blog/how-to-overlay-text-on-an-image-in-html-and-css/ */
+/* See https://dev.to/billraymond/creating-a-pure-responsive-css-grid-hero-image-or-banner-image-2pej */
 
 .banner-container {
-  position: relative;
-  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr; // stretch to the full frame
+  grid-template-rows: 350px; // 350 pixels tall
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-content: center;
+  justify-content: center;
+
+  .banner-image-div {
+    grid-area: 1 / 1 / 2 / 2;
+  } // image
+  .banner-text-div {
+    grid-area: 1 / 1 / 2 / 2;
+  }
 }
 
-.banner-container img {
-  display: block;
+// Banner image
+.banner-image {
+  display: grid;
+  min-width: 350px; // Do not resize to smaller than this.
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover; // Using this so the image can be any size and still look halfway decent.
 }
 
-/* Centered text */
-.banner-centered {
+// Banner text (TODO Better solution)
+.banner-text-div {
   position: absolute;
-  top: 50%; 
+  top: 20%; 
   left: 50%; 
   transform: translate(-50%, -50%);
 }
