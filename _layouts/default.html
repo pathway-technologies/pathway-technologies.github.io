@@ -2,13 +2,25 @@
 # Supported page variables:
 # banner-image: Path to banner image
 # banner-text: Text to overlay banner image
-
-layout: base
 ---
 
-<main>
+<!DOCTYPE html>
+<html lang="{{ page.language | default: site.language | default: 'en' }}">
+
+{% include head.html %}
+
+<body>
+  {% include navigation.html %}
   {% if page.banner-image %}
     {% include banner.html image=page.banner-image text=page.banner-text %}
   {% endif %}
-  {{ content }}
-</main>
+  <div class="w3-container">
+    <main>
+      {{ content }}
+      {% include footer.html %}
+    </main>
+  </div>
+</body>
+</html>
+
+
