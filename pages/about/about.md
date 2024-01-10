@@ -4,11 +4,13 @@ title: About
 permalink: /about/
 ---
 
-<div class="layout-30-70">
+<div class="w3-cell-row">
 
+<div class="w3-container w3-cell w3-mobile">
 <img src="/assets/images/PathwayLogoWithText_1000px.png" style="width:100%;">
+</div>
 
-<div markdown="1">
+<div class="w3-container w3-cell w3-mobile" markdown="1">
 
 # Our Vision
 
