@@ -14,12 +14,10 @@
   {% if page.banner-image %}
     {% include banner.html image=page.banner-image text=page.banner-text %}
   {% endif %}
-  <div class="w3-container">
-    <main>
-      {{ content }}
-      {% include footer.html %}
-    </main>
-  </div>
+  <main class="w3-container">
+    {{ content }}
+  </main>
+  {% include footer.html %}
 </body>
 </html>
 

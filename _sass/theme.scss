@@ -1,0 +1,28 @@
+// Navigator
+.ptl-nav-color {
+  @extend .w3-dark-gray;
+}
+.ptl-nav-active {
+  @extend .w3-blue-gray;
+}
+
+// Banner
+$banner-height: 300px;
+
+// General HTML elements
+h1,h2,h3,h4 {
+  @extend .w3-text-brown;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+// Footer
+.ptl-footer-color {
+  @extend .w3-dark-gray;
+}
+.ptl-footer-text-color {
+  @extend .w3-text-white;
+}
+footer h2 {
+  @extend .ptl-footer-text-color; // Override default h2 colour
+}
