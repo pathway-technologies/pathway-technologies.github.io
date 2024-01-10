@@ -1,10 +1,8 @@
-<div class="banner-container">
-  <div class="banner-image-div">
-    <img class="banner-image" src="{{ include.image }}" alt="Banner Image" />
-  </div>
+<div class="w3-display-container">
+  <img class="banner-image" src="{{ include.image }}" alt="Banner Image" />
   {% if include.text %}
-  <div class="banner-text-div">
-    <h1 style="color:white;">{{ include.text }}</h1>
+  <div class="w3-display-left w3-container">
+    <h1 class="w3-text-white">{{ include.text }}</h1>
   </div>
   {% endif %}
 </div>
