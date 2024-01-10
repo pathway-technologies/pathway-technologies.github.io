@@ -3,7 +3,7 @@
 .banner-container {
   display: grid;
   grid-template-columns: 1fr; // stretch to the full frame
-  grid-template-rows: 350px; // 350 pixels tall
+  grid-template-rows: $banner-height;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   align-content: center;

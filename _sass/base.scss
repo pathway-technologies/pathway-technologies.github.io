@@ -17,11 +17,11 @@ p {
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4 {
-  font-family: "Helvetica Narrow", "Arial Narrow", sans-serif;
+  font-family: $heading-font;
   font-variant: small-caps;
   font-weight: 800;
   line-height: 1.1;
-  color: #694027;
+  color: $heading-font-color;
   margin-top: 1.25rem;
 }
 h1 {
