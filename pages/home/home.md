@@ -12,7 +12,7 @@ banner-text: Engineering for Success
   <div class="w3-container w3-half">
     <div class="w3-card-4">
       <img src="/assets/images/AdobeStock_278511657.jpeg" class="ptl-square-image">
-      <h2 class="w3-center">DevOps Solutions</h2>
+      <h2 class="w3-center"><a href="/devops/">DevOps Solutions</a></h2>
     </div>
   </div>
 

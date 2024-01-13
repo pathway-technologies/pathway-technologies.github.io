@@ -1,6 +1,6 @@
 <nav class="w3-top w3-bar ptl-nav-color">
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" class="w3-bar-item w3-button{% if page.url == item.link %} ptl-nav-active{% endif %}"">{{ item.name }}</a>
+    <a href="{{ item.link }}" class="w3-bar-item w3-button{% if page.url == item.link %} ptl-nav-active{% endif %}">{{ item.name }}</a>
   {% endfor %}
 </nav>
-<div class="w3-bar ptl-nav-color"><div class="w3-bar-item w3-button">PTL <!-- Spacer same size as navigator --> </div></div>
+<div class="w3-bar ptl-nav-color"><div class="w3-bar-item w3-button">PTL<!-- Spacer same size as navigator --> </div></div>
