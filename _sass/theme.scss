@@ -12,6 +12,7 @@ $banner-height: 300px;
 // General HTML elements
 h1,h2,h3,h4 {
   @extend .w3-text-brown;
+  font-family: "Helvetica Narrow", "Arial Narrow", sans-serif;
   font-variant: small-caps;
   font-weight: bold;
 }

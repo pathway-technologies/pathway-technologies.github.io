@@ -27,5 +27,3 @@ The name Pathway evokes purposeful movement. We aim for continual advancement, f
 </div>
 
 </div>
-
-{% include vimeo.html video="530934651?h=a54220f999" %}
