@@ -17,6 +17,10 @@ Wherever you are - with our help, your code will always be fully compliant, accu
 
 Dedicated to continuous improvement, we will help you integrate DevOps into your organisation one step at a time, running with the DevOps Advantage.
 
+# Your DevOps Solutions Provider
+
+Pathway is a DevOps solutions provider, meaning that we are able to offer our customers a fully-integrated solution that is ready to go. Recognising that different companies are at different stages in their implementation of DevOps, Pathway offers a guiding hand, assisting our customers through their digital transformation.
+
 # Pathway to DevOps Success
 
 <div class="w3-row-padding">
@@ -67,7 +71,7 @@ With success comes more interest in automating more, from Testing to DocOps for 
 
 </div> <!-- w3-row -->
 
-One of the first steps we take with a new customer is to perform a DevOps health check. The DevOps transformation is a journey, and our customers need to answer two key questions:
+The DevOps transformation is a journey, and our customers need to answer two key questions:
 
 - Where are you now?
 - Where do you want to go?
