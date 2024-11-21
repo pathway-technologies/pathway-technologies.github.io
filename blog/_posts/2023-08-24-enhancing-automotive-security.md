@@ -2,7 +2,7 @@
 title: "Enhancing Automotive Security: Safeguarding Vehicles in the Era of Connectivity"
 layout: post
 
-banner-image: /assets/images/AdobeStock_302319529.jpeg
+banner-image: /assets/images/blog/AdobeStock_302319529.jpeg
 ---
 
 ## Introduction
