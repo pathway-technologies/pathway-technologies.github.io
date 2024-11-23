@@ -3,6 +3,7 @@ title: "The Legacy Codebase Challenge"
 layout: post
 
 banner-image: /assets/images/blog/20241105_Designer.jpeg
+author: Peter Wilks
 ---
 
 Maintaining a legacy software codebase can be a daunting task for any development team. Legacy codebases are often the backbone of many organisations, supporting critical business functions and processes. However, they come with their own set of challenges that can make maintenance and updates a complex and time-consuming endeavour. In this blog, we will:

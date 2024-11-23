@@ -3,6 +3,7 @@ title: "Exploring the Relationship Between ISO 26262 and ISO/SAE 21434"
 layout: post
 
 banner-image: /assets/images/blog/20241120_Designer.jpeg
+author: Peter Wilks
 ---
 
 In the automotive industry, maintaining both functional safety and cybersecurity is of utmost importance. The two primary standards that address these aspects are ISO 26262 and ISO/SAE 21434. ISO 26262 is dedicated to functional safety, while ISO/SAE 21434 pertains to cybersecurity. This blog post examines the relationship between these two standards and how they work together to enhance the overall safety and security of modern vehicles.
