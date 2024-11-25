@@ -7,20 +7,20 @@ banner-image: /assets/images/AdobeStock_169936222.jpeg
 banner-text: Engineering for Success
 ---
 
-<div class="w3-margin-top w3-row">
+<!-- Latest blog post -->
+<div class="w3-margin-top w3-cell-row">
+  {% assign post = site.posts.first %}
 
-  <div class="w3-container w3-half">
-    <div class="w3-card-4">
-      <img src="/assets/images/AdobeStock_278511657.jpeg" class="ptl-square-image">
-      <h2 class="w3-center"><a href="/devops/">DevOps Solutions</a></h2>
-    </div>
+  <div class="w3-container w3-cell w3-mobile">
+    <img src="{{ post.banner-image }}" style="width:100%;">
   </div>
 
-  <div class="w3-container w3-half">
-    <div class="w3-card-4">
-      <img src="/assets/images/AdobeStock_281187282.jpeg" class="ptl-square-image">
-      <h2 class="w3-center">Training</h2>
-    </div>
+  <div class="w3-container w3-cell w3-mobile">
+    <h2 class="w3-center"><a href="/{{ post.url }}">{{ post.title }}</a></h2>
+    <p>By {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    {% assign preprocessed_content=post.content | replace: '</h', '.</h' %}
+    {% assign cleaned_content=preprocessed_content | strip_html | truncatewords:50 %}
+    <p>{{ cleaned_content }}</p>
   </div>
 
 </div>
