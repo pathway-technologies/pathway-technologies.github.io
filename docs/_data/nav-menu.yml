@@ -6,5 +6,7 @@
   subitems:
     - text: DevOps
       url: /devops/
+    - text: Training + Consultancy
+      url: /training-consultancy/
 - text: About
   url: /about/
