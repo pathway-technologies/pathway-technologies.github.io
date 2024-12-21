@@ -4,7 +4,7 @@ title: Home
 permalink: /
 
 banner-image: /assets/images/AdobeStock_169936222.jpeg
-banner-text: Engineering for Success
+banner-title: Engineering for Success
 ---
 
 <!-- Latest blog post -->

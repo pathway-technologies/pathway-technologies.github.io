@@ -4,7 +4,7 @@ title: Training with Consultancy
 permalink: /training-consultancy/
 
 banner-image: /assets/images/AdobeStock_281187282.jpeg
-banner-text: Training with Consultancy
+banner-title: Training with Consultancy
 ---
 
 ## Your Software Compliance and Security Solutions Partner 

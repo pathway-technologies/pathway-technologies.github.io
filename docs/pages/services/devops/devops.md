@@ -4,7 +4,7 @@ title: DevOps Health Check
 permalink: /devops/
 
 banner-image: /assets/images/AdobeStock_190949733.jpeg
-banner-text: DevOps Health Check
+banner-title: DevOps Health Check
 ---
 
 # Navigating the Path to DevOps Success
