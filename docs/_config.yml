@@ -43,5 +43,7 @@ sass:
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
   - Gemfile
   - Gemfile.lock
