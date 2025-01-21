@@ -2,6 +2,8 @@
 layout: default
 title: About
 permalink: /about/
+
+banner-show: false
 ---
 
 <div class="w3-cell-row">
