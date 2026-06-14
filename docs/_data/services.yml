@@ -1,0 +1,11 @@
+- id: devops
+  title: DevOps for Regulated Environments
+  description: DevOps pipelines designed for auditability and compliance
+  url: /services/devops/
+  order: 1
+
+- id: training-consultancy
+  title: Training and Consultancy
+  description: Practical support for engineering standards and compliance
+  url: /services/training-consultancy/
+  order: 2
