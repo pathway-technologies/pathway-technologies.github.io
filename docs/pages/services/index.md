@@ -3,6 +3,7 @@ layout: default
 title: Services
 permalink: /services/
 description: Engineering services for regulated environments
+banner-image: /assets/images/AdobeStock_281187282.jpeg
 ---
 
 <section class="w3-container w3-padding-32">
@@ -19,7 +20,7 @@ description: Engineering services for regulated environments
 
     {% assign services = site.data.services | sort: "order" %}
 
-    {% for service in services %}
+    {%- for service in services -%}
 
     <div class="w3-half w3-margin-bottom">
       <div class="w3-card w3-padding">
@@ -29,21 +30,27 @@ description: Engineering services for regulated environments
         <p>{{ service.description }}</p>
 
         <!-- OPTIONAL: manual variation slot -->
-        {% if service.id == "devops" %}
+        {%- if service.id == "devops" -%}
         <p>
           Focused on traceability, reproducibility, and auditability
           within CI/CD pipelines.
         </p>
         {% endif %}
 
-        {% if service.id == "training-consultancy" %}
+        {%- if service.id == "training-consultancy" -%}
         <p>
           Bridging the gap between standards and practical engineering workflows.
         </p>
         {% endif %}
 
         <div class="w3-margin-top">
-          <a href="{{ service.url | relative_url }}">View details</a>
+          <a
+            href="{{ service.url | relative_url }}"
+            class="w3-button w3-small w3-border"
+            aria-label="View details for {{ service.title }}"
+          >
+            View details
+          </a>
         </div>
 
       </div>

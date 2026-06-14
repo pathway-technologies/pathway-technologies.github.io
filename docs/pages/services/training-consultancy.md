@@ -1,105 +1,72 @@
 ---
-layout: default
+layout: service
 title: Training and Consultancy
+subtitle: Practical training and advisory support for engineering standards and compliance
 permalink: /services/training-consultancy/
 description: Training and consultancy for engineering processes, standards, and compliance
 banner-image: /assets/images/AdobeStock_281187282.jpeg
 ---
 
-<section class="w3-container w3-padding-32">
-  <h1>Training and Consultancy</h1>
-  <p class="w3-large">
-    Practical training and advisory support for engineering teams working with standards and compliance requirements.
-  </p>
+## The Problem
 
-  <div class="w3-margin-top">
-    <a href="/contact/" class="w3-button w3-black">Discuss your requirements</a>
-  </div>
-</section>
+Engineering teams are often required to adopt standards and compliance frameworks
+without clear guidance on how these translate into day-to-day engineering workflows.
 
-<section class="w3-container w3-padding-32 w3-light-grey">
-  <h2>The Problem</h2>
+- Standards interpreted inconsistently across teams  
+- Lack of practical, implementation-focused training  
+- Disconnect between policy and engineering practice  
 
-  <p>
-    Engineering teams are often required to adopt standards and compliance
-    frameworks without clear guidance on how these translate into day-to-day workflows.
-  </p>
+---
 
-  <ul>
-    <li>Standards interpreted inconsistently across teams</li>
-    <li>Lack of practical, implementation-focused training</li>
-    <li>Disconnect between policy and engineering practice</li>
-  </ul>
-</section>
+## Approach
 
-<section class="w3-container w3-padding-32">
-  <h2>Approach</h2>
+Training and consultancy focus on bridging the gap between standards and
+practical engineering implementation.
 
-  <p>
-    Training and consultancy focus on bridging the gap between standards
-    and practical engineering implementation.
-  </p>
+### 1. Assess
 
-  <div class="w3-row-padding">
+Understand current processes, standards, and organisational context.
 
-    <div class="w3-third">
-      <h3>1. Assess</h3>
-      <p>Understanding current processes, standards, and organisational context</p>
-    </div>
+### 2. Define
 
-    <div class="w3-third">
-      <h3>2. Define</h3>
-      <p>Clarification of how standards apply to specific engineering workflows</p>
-    </div>
+Clarify how standards apply to specific engineering workflows.
 
-    <div class="w3-third">
-      <h3>3. Deliver</h3>
-      <p>Training sessions and advisory support tailored to the organisation</p>
-    </div>
+### 3. Deliver
 
-  </div>
-</section>
+Provide structured training and advisory support tailored to the organisation.
 
-<section class="w3-container w3-padding-32 w3-light-grey">
-  <h2>Typical Deliverables</h2>
+---
 
-  <ul class="w3-ul">
-    <li>Structured training sessions on engineering standards</li>
-    <li>Process guidance aligned to compliance requirements</li>
-    <li>Documentation templates and working practices</li>
-    <li>Advisory support for implementation and adoption</li>
-  </ul>
-</section>
+## Typical Deliverables
 
-<section class="w3-container w3-padding-32">
-  <h2>Experience</h2>
+- Structured training sessions on engineering standards  
+- Process guidance aligned to compliance requirements  
+- Documentation templates and working practices  
+- Advisory support for implementation and adoption  
 
-  <ul class="w3-ul">
-    <li>Support for teams working with safety-related engineering standards</li>
-    <li>Development of practical, engineering-focused training materials</li>
-    <li>Experience aligning engineering workflows with compliance expectations</li>
-  </ul>
-</section>
+---
 
-<section class="w3-container w3-padding-32 w3-light-grey">
-  <h2>Best Fit</h2>
+## Experience
 
-  <p>This service is most relevant for:</p>
+- Support for teams working with safety-related engineering standards  
+- Development of practical, engineering-focused training materials  
+- Experience aligning engineering workflows with compliance expectations  
 
-  <ul>
-    <li>Engineering teams adopting or scaling compliance frameworks</li>
-    <li>Organisations requiring practical interpretation of standards</li>
-    <li>Projects where training and implementation need to be closely aligned</li>
-  </ul>
-</section>
+---
 
-<section class="w3-container w3-padding-32 w3-center">
-  <h2>Discuss your requirements</h2>
+## Best Fit
 
-  <p>
-    If your team requires structured guidance on applying standards in practice,
-    training and consultancy can provide a clear and consistent approach.
-  </p>
+This service is most relevant for:
 
-  <a href="/contact/" class="w3-button w3-black">Contact</a>
-</section>
+- Engineering teams adopting or scaling compliance frameworks  
+- Organisations requiring practical interpretation of standards  
+- Projects where training and implementation need to be closely aligned  
+
+---
+
+## Discuss your requirements
+
+If your team requires structured guidance on applying standards in practice,
+training and consultancy can provide a clear and consistent approach.
+
+[Contact](/contact/)

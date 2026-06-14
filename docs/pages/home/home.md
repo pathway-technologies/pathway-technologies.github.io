@@ -33,7 +33,7 @@ banner-title: Engineering for Safety-Critical Systems
           Design and implement deterministic CI/CD pipelines aligned with
           safety standards and audit requirements.
         </p>
-        <a href="/devops/">Learn more →</a>
+        <a href="/services/devops/">Learn more →</a>
       </div>
     </div>
 
@@ -44,7 +44,7 @@ banner-title: Engineering for Safety-Critical Systems
           Practical guidance and structured training in ISO 26262,
           safety workflows, and engineering process design.
         </p>
-        <a href="/training-consultancy/">Learn more →</a>
+        <a href="/services/training-consultancy/">Learn more →</a>
       </div>
     </div>
 
