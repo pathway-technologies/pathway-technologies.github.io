@@ -1,3 +1,12 @@
+// =========================
+// Vertical rhythm scale
+// =========================
+$ptl-space-xs: 0.5rem;   // 8px
+$ptl-space-sm: 1rem;     // 16px
+$ptl-space-md: 2rem;     // 32px
+$ptl-space-lg: 3rem;     // 48px
+
+
 // Navigator background
 .ptl-nav-bg-color {
   @extend .w3-dark-gray;

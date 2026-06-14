@@ -17,8 +17,6 @@ engineering environments.
 - Manual or fragmented compliance processes
 - Build pipelines that cannot be easily audited or verified
 
----
-
 ## Approach
 
 DevOps pipelines are designed with explicit attention to reproducibility,
@@ -36,8 +34,6 @@ Definition of pipeline architecture, artefact flow, and traceability model.
 
 Deployment and integration of pipelines, tooling, and supporting processes.
 
----
-
 ## Typical Deliverables
 
 - DevOps pipeline architecture specifications  
@@ -45,15 +41,11 @@ Deployment and integration of pipelines, tooling, and supporting processes.
 - CI/CD pipeline implementation and configuration  
 - Process documentation aligned to compliance requirements  
 
----
-
 ## Experience
 
 - Support for engineering teams operating under safety-related standards  
 - Integration of development workflows with compliance processes  
 - Design of deterministic and auditable build pipelines  
-
----
 
 ## Best Fit
 
@@ -62,8 +54,6 @@ This service is most relevant for:
 - Teams working in safety-critical or regulated domains  
 - Organisations introducing DevOps into compliance-driven environments  
 - Projects requiring traceable, auditable engineering workflows  
-
----
 
 ## Discuss your requirements
 

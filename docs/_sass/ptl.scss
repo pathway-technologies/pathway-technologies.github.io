@@ -32,6 +32,11 @@
   background-position: center;
   background-size: cover;
 }
+// banner no longer hides under nav
+body.ptl-page {
+  padding-top: 48px; // match nav height
+}
+
 
 // Apply a shadow, e.g. to make white text visible on pale background
 .ptl-shadow-text {
@@ -40,4 +45,81 @@
 
 .ptl-background-opacity {
   background: rgba(0, 0, 0, 0.3);
+}
+
+// Service page content structure
+
+.ptl-service-content {
+
+  h2 {
+    margin-top: $ptl-space-lg;
+  }
+
+  h3 {
+    margin-top: $ptl-space-md;
+  }
+
+  p {
+    margin-top: $ptl-space-sm;
+  }
+
+  ul {
+    margin-top: $ptl-space-sm;
+  }
+
+  h2:first-child {
+    margin-top: 0;
+  }
+}
+
+
+// =========================
+// Page layout (sticky footer)
+// =========================
+.ptl-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+// Main content expands to fill available space
+.ptl-main {
+  flex: 1;
+  margin-bottom: $ptl-space-lg;
+}
+
+footer {
+  padding-top: $ptl-space-md;
+  padding-bottom: $ptl-space-md;
+}
+
+
+
+// =========================
+// About page logo
+// =========================
+.ptl-about-logo {
+  opacity: 0.95;
+
+  float: right;
+
+  width: 220px;        // fixed preferred size
+  max-width: 30%;      // scale down if container is narrow
+
+  height: auto;        // maintain aspect ratio
+
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .ptl-about-logo {
+    float: none;
+
+    display: block;
+    width: 180px;         // smaller on mobile
+    max-width: 80%;
+
+    margin: 0 auto 1.5rem auto;
+  }
 }

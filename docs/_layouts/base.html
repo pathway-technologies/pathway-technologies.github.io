@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body>
+<body class="ptl-page">
   {% include navigation-bar.html %}
 
   {% if page.banner-show %}
@@ -14,7 +14,7 @@
        img-position=page.banner-img-position %}
   {% endif %}
 
-  <main class="w3-container">
+  <main class="w3-container ptl-main">
     {{ content }}
   </main>
 

@@ -16,8 +16,6 @@ without clear guidance on how these translate into day-to-day engineering workfl
 - Lack of practical, implementation-focused training  
 - Disconnect between policy and engineering practice  
 
----
-
 ## Approach
 
 Training and consultancy focus on bridging the gap between standards and
@@ -35,8 +33,6 @@ Clarify how standards apply to specific engineering workflows.
 
 Provide structured training and advisory support tailored to the organisation.
 
----
-
 ## Typical Deliverables
 
 - Structured training sessions on engineering standards  
@@ -44,15 +40,11 @@ Provide structured training and advisory support tailored to the organisation.
 - Documentation templates and working practices  
 - Advisory support for implementation and adoption  
 
----
-
 ## Experience
 
 - Support for teams working with safety-related engineering standards  
 - Development of practical, engineering-focused training materials  
 - Experience aligning engineering workflows with compliance expectations  
-
----
 
 ## Best Fit
 
@@ -61,8 +53,6 @@ This service is most relevant for:
 - Engineering teams adopting or scaling compliance frameworks  
 - Organisations requiring practical interpretation of standards  
 - Projects where training and implementation need to be closely aligned  
-
----
 
 ## Discuss your requirements
 

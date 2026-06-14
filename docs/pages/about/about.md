@@ -1,31 +1,53 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
-
 banner-show: false
 ---
 
-<div class="w3-cell-row">
+<img src="/assets/images/PathwayLogoWithText_1000px.png"
+     alt="Pathway Technologies logo"
+     class="ptl-about-logo">
 
-<div class="w3-container w3-cell w3-mobile">
-<img src="/assets/images/PathwayLogoWithText_1000px.png" style="width:100%;">
-</div>
+Pathway Technologies provides engineering support for organisations
+working in regulated and safety-critical domains.
 
-<div class="w3-container w3-cell w3-mobile" markdown="1">
+The focus is on practical implementation: bridging the gap between
+engineering standards and real-world development workflows.
 
-# Our Vision
+## Background
 
-Using technology to strengthen society
+The work is grounded in experience with:
 
-# Our Mission
+- Functional safety and related standards (e.g. ISO 26262)
+- DevOps and software engineering practices
+- Technical documentation and traceability
+- Engineering processes in regulated environments
 
-The name Pathway evokes purposeful movement. We aim for continual advancement, for our employees, our customers, and society at large.
+The emphasis is on clarity, determinism, and auditability in
+engineering systems.
 
-- Our employees are valued as people, not as resources. All employees are encouraged in professional and personal growth.
-- We treat our customers with honesty, openness and integrity.
-- Our products use the latest technology for the strengthening of society.
+## Approach
 
-</div>
+Engagements are structured around:
 
-</div>
+- Understanding the current state in detail  
+- Defining clear, achievable target outcomes  
+- Implementing solutions aligned with both engineering and compliance requirements  
+
+The goal is not only to define processes, but to ensure they are
+usable, maintainable, and effective in practice.
+
+## Focus Areas
+
+- DevOps in regulated environments  
+- Engineering standards and compliance  
+- Process definition and refinement  
+- Training and knowledge transfer  
+
+## Working Principles
+
+- Clear communication and transparency  
+- Practical solutions over theoretical models  
+- Alignment between engineering activity and compliance requirements  
+- Continuous improvement of processes and systems  
