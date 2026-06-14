@@ -47,6 +47,12 @@ body.ptl-page {
   background: rgba(0, 0, 0, 0.3);
 }
 
+.ptl-subtle-note {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
 // Service page content structure
 
 .ptl-service-content {
@@ -93,6 +99,9 @@ footer {
   padding-bottom: $ptl-space-md;
 }
 
+footer p {
+  margin: 0.25rem 0;
+}
 
 
 // =========================

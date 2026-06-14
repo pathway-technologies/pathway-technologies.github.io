@@ -38,6 +38,9 @@ Engagements are structured around:
 The goal is not only to define processes, but to ensure they are
 usable, maintainable, and effective in practice.
 
+Infrastructure is selected to minimise data exposure, with a preference
+for European-hosted services where practical.
+
 ## Focus Areas
 
 - DevOps in regulated environments  

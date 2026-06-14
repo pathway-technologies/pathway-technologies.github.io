@@ -13,6 +13,11 @@ banner-image: /assets/images/AdobeStock_281187282.jpeg
     Focused support for engineering teams operating in regulated
     and safety-critical environments.
   </p>
+
+  <p class="ptl-subtle-note">
+    Infrastructure is intentionally selected to minimise data exposure,
+    with a preference for European-hosted services where practical.
+  </p>
 </section>
 
 <section class="w3-container w3-padding-32">
