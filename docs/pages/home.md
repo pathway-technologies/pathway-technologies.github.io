@@ -17,9 +17,14 @@ banner-title: Engineering for Safety-Critical Systems
       and deterministic document workflows.
     </p>
 
+
     <div class="w3-margin-top">
       <a href="/services/" class="ptl-button">View Services</a>
       <a href="/about/" class="ptl-button">About Pathway Technologies</a>
+      
+      <a href="/newsletter/" class="ptl-button">
+        Subscribe to newsletter
+      </a>
     </div>
   </div>
 
