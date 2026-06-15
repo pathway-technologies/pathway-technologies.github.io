@@ -9,6 +9,11 @@ banner-show: false
      alt="Pathway Technologies logo"
      class="ptl-about-logo">
 
+
+## Company
+
+Pathway Technologies Ltd. is a company registered in Hong Kong.
+
 Pathway Technologies provides engineering support for organisations
 working in regulated and safety-critical domains.
 

@@ -29,19 +29,22 @@ you provide will be processed for the purpose of responding to your enquiry.
 
 This information is not used for marketing purposes without your consent.
 
-### Newsletter (Planned)
+### Newsletter
 
-If a newsletter or mailing list is introduced, personal data (such as name and email address)
-will be collected only with your explicit consent.
+If you subscribe to the Pathway Technologies newsletter or mailing list, personal data (such as your name and email address) will be collected and processed for the purpose of providing relevant updates and information.
 
-You will be able to unsubscribe at any time via a link included in each communication.
+Subscription is based on your explicit consent. You may withdraw your consent at any time by using the unsubscribe link included in each communication or by contacting us directly.
+
+Newsletter distribution may be handled by a third-party email service provider,
+selected with consideration for data protection and regulatory alignment.
 
 ### Embedded Content
 
 This website may include embedded content from third-party platforms, such as Vimeo or YouTube.
 
-When interacting with such content, those platforms may collect data in accordance with
-their own privacy policies.
+Embedded content may collect data independently of this website.
+Once you interact with such content, the third-party platform
+acts as a separate data controller.
 
 ### Analytics (Future Use)
 
@@ -52,6 +55,16 @@ If such tools are introduced:
 - only necessary data will be collected  
 - appropriate consent mechanisms will be implemented where required  
 - this policy will be updated accordingly  
+
+## Data Security
+
+Appropriate technical and organisational measures are applied to protect
+personal data against unauthorised access, disclosure, or loss.
+
+## Business Changes
+
+In the event of a business reorganisation (such as a merger or acquisition),
+personal data may be transferred as part of that process, subject to applicable law.
 
 ## Cookies
 
@@ -71,13 +84,24 @@ including responding to enquiries and maintaining the operation and security of 
 ## Data Sharing
 
 Personal data is not sold or shared with third parties, except where necessary
-to operate the website (e.g. hosting providers) or where required by law.
+to operate the website (e.g. hosting and infrastructure providers) or where required by law.
 
 ## Data Controller and Jurisdiction
 
 This website is operated by Pathway Technologies Ltd., a company registered in Hong Kong.
 
 Pathway Technologies Ltd. acts as the data controller for any personal data processed in connection with this website.
+
+Contact: contact@pathway-technologies.com
+
+## Legal Basis for Processing
+
+Where personal data is processed, the following legal bases may apply:
+
+- Consent: where you have explicitly agreed to the processing (e.g. for a newsletter)  
+- Contractual necessity: where processing is required to respond to or fulfil a request  
+- Legal obligations: where data must be processed to comply with legal requirements  
+- Legitimate interests: where processing is necessary for the operation and security of the website, provided such interests are not overridden by your rights and interests  
 
 ## International Data Transfers
 
@@ -122,6 +146,7 @@ Under applicable data protection law (including the GDPR where relevant), you ha
 - Request correction of inaccurate data  
 - Request deletion of your personal data  
 - Object to or restrict processing in certain circumstances  
+- Lodge a complaint with a relevant data protection authority  
 
 ## Contact
 
@@ -134,3 +159,5 @@ please contact:
 
 This Privacy Policy may be updated from time to time to reflect changes in the website
 or applicable legal requirements.
+
+**Last updated:** June 2026

@@ -51,7 +51,7 @@ banner-image: /assets/images/AdobeStock_281187282.jpeg
         <div class="w3-margin-top">
           <a
             href="{{ service.url | relative_url }}"
-            class="w3-button w3-small w3-border"
+            class="ptl-button"
             aria-label="View details for {{ service.title }}"
           >
             View details

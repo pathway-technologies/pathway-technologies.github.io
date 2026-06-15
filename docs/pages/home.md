@@ -18,8 +18,8 @@ banner-title: Engineering for Safety-Critical Systems
     </p>
 
     <div class="w3-margin-top">
-      <a href="/services/" class="w3-button w3-blue w3-margin-right">View Services</a>
-      <a href="/about/" class="w3-button w3-light-grey">About Pathway Technologies</a>
+      <a href="/services/" class="ptl-button">View Services</a>
+      <a href="/about/" class="ptl-button">About Pathway Technologies</a>
     </div>
   </div>
 
