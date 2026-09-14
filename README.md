@@ -2,11 +2,11 @@
 
 This repository holds the source for the pathway-technologies.com website
 
-See the WiKi at https://github.com/pathway-technologies/pathway-technologies.github.io/wiki for more details
+See the documentation folder for more details
 
 The Pathway Technologies website is written using Jekyll and hosted on GitHub.
 
-The website URL is https://pathway-technologies.github.io/
+The website URL is https://pathway-technologies.github.io/ and https://pathway-technologies.com
 
 # Useful Links
 
