@@ -14,4 +14,3 @@ The website URL is https://pathway-technologies.github.io/ and https://pathway-t
 
 - Jekyll main page: https://jekyllrb.com/
 - Jekyll GitHub page: https://github.com/jekyll/jekyll
-- The source code to the Jekyll website https://jekyllrb.com/ can be found in the `docs` folder at https://github.com/jekyll/jekyll/tree/master/docs

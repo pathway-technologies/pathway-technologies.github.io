@@ -1,7 +1,7 @@
 services:
   devshell:
-    image: jekyll-builder:latest
-    container_name: jekyll-builder-pathway-technologies-com
+    image: github-pages-builder:latest
+    container_name: github-pages-builder-pathway-technologies-com
     working_dir: /workspace
     volumes:
       - .:/workspace
