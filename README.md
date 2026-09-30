@@ -8,9 +8,44 @@ The Pathway Technologies website is written using Jekyll and hosted on GitHub.
 
 The website URL is https://pathway-technologies.github.io/ and https://pathway-technologies.com
 
-# Useful Links
+## Quick Start
 
-**Jekyll** is integrated into GitHub Pages, and provides a flexible way to maintain static websites using Markdown and other technologies:
+Open an interactive shell:
 
-- Jekyll main page: https://jekyllrb.com/
-- Jekyll GitHub page: https://github.com/jekyll/jekyll
+```bash
+./devshell.sh
+```
+
+Start the development server with automatic rebuilds (run this command from within the `devshell`):
+
+```bash
+./serve.sh
+```
+
+The site will be available at: http://localhost:4000
+
+Changes to source files are detected automatically and the site is rebuilt.
+
+## Validate
+
+Build and validate the site:
+
+```
+./check.sh
+```
+
+This performs a clean Jekyll build and reports any build errors.
+
+## Production Build
+
+Generate the final site:
+
+```
+./build.sh
+```
+
+The generated output is written to:
+
+```bash
+public/
+```
