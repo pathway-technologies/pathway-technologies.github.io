@@ -2,6 +2,9 @@
 
 set -euo pipefail
 
+ROOT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+cd "${ROOT_DIR}/website"
+
 echo "==> Starting Jekyll development server"
 echo
 
@@ -12,5 +15,4 @@ echo
 bundle exec jekyll serve \
     --host 0.0.0.0 \
     --livereload \
-    --source website \
-    --destination public
+    --destination "${ROOT_DIR}/public"

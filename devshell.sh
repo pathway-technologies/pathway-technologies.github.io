@@ -38,11 +38,28 @@ fi
 echo "==> Project: ${PROJECT_NAME}"
 echo "==> Using UID:GID = ${UID_HOST}:${GID_HOST}"
 
+# Fixed host ports mean only one container can bind port 4000 at a time
+EXISTING_CONTAINER="$(docker ps --filter "publish=4000" --format '{{.Names}}' | head -n1)"
+if [[ -n "${EXISTING_CONTAINER}" ]]; then
+  echo "ERROR: Port 4000 is already in use by container '${EXISTING_CONTAINER}'." >&2
+  echo "       Stop it first with:" >&2
+  echo "         docker stop ${EXISTING_CONTAINER}" >&2
+  exit 1
+fi
+
 echo "==> Starting interactive dev shell..."
 echo "    (Your project is mounted at /workspace inside the container.)"
 echo
 
 # Run an interactive shell, auto-remove container on exit
-
+# Install gem dependencies
 UID_HOST="${UID_HOST}" GID_HOST="${GID_HOST}" \
-  docker compose -f "${COMPOSE_FILE}" run --rm "${SERVICE_NAME}" bash
+  docker compose \
+  -f "${COMPOSE_FILE}" \
+  run --rm --service-ports \
+  "${SERVICE_NAME}" \
+  bash -c '
+    cd website
+    bundle check || bundle install
+    exec bash
+  '
