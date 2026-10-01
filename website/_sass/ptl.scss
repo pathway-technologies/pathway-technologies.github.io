@@ -68,6 +68,13 @@ $ptl-banner-height: 300px;
   font-size: 1.1rem;
 }
 
+.ptl-hero-caption-inner .ptl-hero-caption-brand {
+  margin-top: $ptl-space-sm;
+  color: $ptl-color-accent;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 .ptl-hero-banner-photo {
   position: relative;
   height: $ptl-banner-height;
@@ -542,6 +549,23 @@ body.ptl-page {
   padding-top: $ptl-space-md;
   padding-bottom: $ptl-space-md;
 }
+
+.ptl-footer-brand {
+  display: inline-flex;
+  width: 128px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $ptl-space-sm;
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+
+.ptl-footer-brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .ptl-page footer p {
   margin: 0.25rem 0;
 }

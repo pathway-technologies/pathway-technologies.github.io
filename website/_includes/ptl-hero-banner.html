@@ -20,6 +20,7 @@
     <div class="ptl-hero-caption-inner">
       <h1>{{ include.title | escape }}</h1>
       {% if include.text %}<p>{{ include.text | escape }}</p>{% endif %}
+      {% if include.brand %}<p class="ptl-hero-caption-brand">{{ include.brand | escape }}</p>{% endif %}
     </div>
   </div>
   {% endif %}
