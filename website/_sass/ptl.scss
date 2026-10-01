@@ -550,6 +550,19 @@ body.ptl-page {
   padding-bottom: $ptl-space-md;
 }
 
+.ptl-footer-grid {
+  display: grid;
+  width: min(100%, 1120px);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: $ptl-space-lg;
+  margin: 0 auto;
+}
+
+.ptl-footer-column h2 {
+  margin: 0 0 $ptl-space-sm;
+  font-size: 1.1rem;
+}
+
 .ptl-footer-brand {
   display: inline-flex;
   width: 128px;
@@ -624,6 +637,11 @@ body.ptl-page {
   .ptl-home-services,
   .ptl-post-feature {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ptl-footer-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: $ptl-space-md;
   }
 
   .ptl-home-services {
