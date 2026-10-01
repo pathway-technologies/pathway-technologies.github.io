@@ -6,15 +6,23 @@ $ptl-space-sm: 1rem;     // 16px
 $ptl-space-md: 2rem;     // 32px
 $ptl-space-lg: 3rem;     // 48px
 
+$ptl-color-ink: #1d2d2b;
+$ptl-color-muted: #52625f;
+$ptl-color-canvas: #f3f6f4;
+$ptl-color-accent: #12675f;
+$ptl-color-accent-soft: #e2eeeb;
+
 
 // =========================
-// Navigator theme
+// Navigation theme
 // =========================
 .ptl-nav-bg-color {
-  @extend .w3-dark-gray;
+  background-color: $ptl-color-ink;
+  color: #ffffff;
 }
 .ptl-nav-bg-active {
-  @extend .w3-blue-gray;
+  background-color: $ptl-color-accent;
+  color: #ffffff;
 }
 .ptl-nav-bg-hover {
   @extend .w3-hover-grey; // Must be a w3-hover class
@@ -25,8 +33,8 @@ $ptl-space-lg: 3rem;     // 48px
 // Button theme
 // =========================
 .ptl-btn-bg {
-  @extend .w3-dark-gray;
-  @extend .ptl-footer-text-color; // or white text explicitly
+  background-color: $ptl-color-ink;
+  @extend .w3-text-white;
 }
 
 .ptl-btn-bg-hover {
@@ -37,20 +45,39 @@ $ptl-space-lg: 3rem;     // 48px
 // =========================
 // Hero Banner
 // =========================
-$ptl-banner-height: 300px;
 .ptl-banner-bg-color {
   @extend .w3-blue-gray;
+}
+
+body.ptl-page {
+  background-color: $ptl-color-canvas;
+  color: $ptl-color-ink;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
 }
 
 
 // =========================
 // General HTML elements
 // =========================
-h1,h2,h3,h4 {
-  @extend .w3-text-brown;
-  font-family: "Helvetica Narrow", "Arial Narrow", sans-serif;
-  font-variant: small-caps;
-  font-weight: bold;
+.ptl-page h1,
+.ptl-page h2,
+.ptl-page h3,
+.ptl-page h4 {
+  color: $ptl-color-ink;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-variant: normal;
+  font-weight: 650;
+  line-height: 1.2;
+}
+.ptl-page a {
+  color: $ptl-color-accent;
+}
+.ptl-page .ptl-nav-bg-hover,
+.ptl-page a.ptl-button,
+.ptl-page footer a {
+  color: #ffffff;
 }
 
 
@@ -58,28 +85,26 @@ h1,h2,h3,h4 {
 // Footer
 // =========================
 .ptl-footer-bg-color {
-  @extend .w3-dark-gray;
+  background-color: $ptl-color-ink;
 }
 .ptl-footer-text-color {
   @extend .w3-text-white;
 }
-footer h2 {
+.ptl-page footer h2 {
   @extend .ptl-footer-text-color; // Override default header colour
 }
 
 
 // =========================
-// Default table layout
+// Table borders
 // =========================
 // All borders visible
-table{
-  border-collapse: collapse;
-  border-spacing: 0;
+.ptl-page table {
   border:2px solid #000000;
 }
-th{
+.ptl-page th {
   border:2px solid #000000;
 }
-td{
+.ptl-page td {
   border:1px solid #000000;
 }
