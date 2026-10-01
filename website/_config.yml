@@ -45,6 +45,7 @@ defaults:
       path: ""
     values:
       banner-show: true
+      banner-image-style: photo
 
 # Exclude from processing.
 # The following items will not be processed, by default.
