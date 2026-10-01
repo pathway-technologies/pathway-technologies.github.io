@@ -46,7 +46,7 @@ $ptl-color-accent-soft: #e2eeeb;
 // Hero Banner
 // =========================
 .ptl-banner-bg-color {
-  @extend .w3-blue-gray;
+  background-color: $ptl-color-accent-soft;
 }
 
 body.ptl-page {
