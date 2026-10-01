@@ -176,6 +176,57 @@ $ptl-banner-height: 300px;
   margin-top: $ptl-space-sm;
 }
 
+.ptl-home-services {
+  display: grid;
+  width: min(100%, 1120px);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  margin: 0 auto $ptl-space-lg;
+  padding: $ptl-space-md 0;
+}
+
+.ptl-home-service {
+  min-width: 0;
+  padding-top: $ptl-space-sm;
+  border-top: 1px solid rgba(29, 45, 43, 0.2);
+}
+
+.ptl-home-service h2 {
+  margin: 0 0 $ptl-space-sm;
+  font-size: 1.35rem;
+}
+
+.ptl-home-service p {
+  margin: 0 0 $ptl-space-sm;
+  color: $ptl-color-muted;
+}
+
+.ptl-home-service a,
+.ptl-home-about a {
+  font-weight: 650;
+}
+
+.ptl-home-about {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: $ptl-space-lg 0;
+  border-top: 1px solid rgba(29, 45, 43, 0.2);
+}
+
+.ptl-home-about h2 {
+  margin: 0 0 $ptl-space-sm;
+  font-size: 1.5rem;
+}
+
+.ptl-home-about p {
+  max-width: 72ch;
+  color: $ptl-color-muted;
+}
+
+.ptl-home-about p:first-of-type {
+  color: $ptl-color-ink;
+}
+
 
 // =========================
 // Button
@@ -546,8 +597,17 @@ body.ptl-page {
   .ptl-about-intro,
   .ptl-about-sections,
   .ptl-service-list,
+  .ptl-home-services,
   .ptl-post-feature {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ptl-home-services {
+    gap: $ptl-space-md;
+  }
+
+  .ptl-home-about {
+    padding: $ptl-space-md 0;
   }
 
   .ptl-post-feature-list {

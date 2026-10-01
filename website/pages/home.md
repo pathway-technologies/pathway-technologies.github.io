@@ -31,41 +31,24 @@ banner-title: Engineering for Safety-Critical Systems
   </div>
 
   <!-- Services Overview -->
-  <div class="w3-row-padding w3-padding-32">
+  <div class="ptl-home-services">
+    <section class="ptl-home-service">
+      <h2>DevOps for Regulated Systems</h2>
+      <p>Design and implement deterministic CI/CD pipelines aligned with safety standards and audit requirements.</p>
+      <a href="/services/devops/">Learn more <span aria-hidden="true">&rarr;</span></a>
+    </section>
 
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card w3-padding">
-        <h3>DevOps for Regulated Systems</h3>
-        <p>
-          Design and implement deterministic CI/CD pipelines aligned with
-          safety standards and audit requirements.
-        </p>
-        <a href="/services/devops/">Learn more →</a>
-      </div>
-    </div>
+    <section class="ptl-home-service">
+      <h2>Training &amp; Consultancy</h2>
+      <p>Practical guidance and structured training in ISO 26262, safety workflows, and engineering process design.</p>
+      <a href="/services/training-consultancy/">Learn more <span aria-hidden="true">&rarr;</span></a>
+    </section>
 
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card w3-padding">
-        <h3>Training & Consultancy</h3>
-        <p>
-          Practical guidance and structured training in ISO 26262,
-          safety workflows, and engineering process design.
-        </p>
-        <a href="/services/training-consultancy/">Learn more →</a>
-      </div>
-    </div>
-
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card w3-padding">
-        <h3>Document & Compliance Workflows</h3>
-        <p>
-          Transform engineering documentation into structured,
-          traceable, and audit-ready artefacts.
-        </p>
-        <a href="/services/">Explore →</a>
-      </div>
-    </div>
-
+    <section class="ptl-home-service">
+      <h2>Document &amp; Compliance Workflows</h2>
+      <p>Transform engineering documentation into structured, traceable, and audit-ready artefacts.</p>
+      <a href="/services/">Explore services <span aria-hidden="true">&rarr;</span></a>
+    </section>
   </div>
 
   <!-- Latest Blog Post -->
@@ -73,9 +56,7 @@ banner-title: Engineering for Safety-Critical Systems
   {% include ptl-post-feature.html post=post label="Latest article" %}
 
   <!-- Positioning / About -->
-  <hr>
-
-  <div class="w3-container w3-padding-32">
+  <section class="ptl-home-about">
     <h2>About Pathway Technologies</h2>
 
     <p>
@@ -92,6 +73,6 @@ banner-title: Engineering for Safety-Critical Systems
     </p>
 
     <a href="/about/">Learn more →</a>
-  </div>
+  </section>
 
 </div>
