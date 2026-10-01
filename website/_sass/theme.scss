@@ -30,19 +30,6 @@ $ptl-color-accent-soft: #e2eeeb;
 
 
 // =========================
-// Button theme
-// =========================
-.ptl-btn-bg {
-  background-color: $ptl-color-ink;
-  @extend .w3-text-white;
-}
-
-.ptl-btn-bg-hover {
-  @extend .w3-hover-grey; // hover state
-}
-
-
-// =========================
 // Hero Banner
 // =========================
 .ptl-banner-bg-color {
