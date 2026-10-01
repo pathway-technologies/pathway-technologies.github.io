@@ -68,26 +68,27 @@ banner-title: Engineering for Safety-Critical Systems
   </div>
 
   <!-- Latest Blog Post -->
-  <hr>
-
-  <div class="w3-margin-top w3-cell-row">
+  <section class="ptl-home-feature" aria-labelledby="home-feature-title">
     {% assign post = site.posts.first %}
 
     {% if post.banner-image %}
-      <div class="w3-container w3-cell w3-mobile">
-        <img src="{{ post.banner-image | relative_url }}" alt="{{ post.banner-alt | default: post.title | escape }}" style="width:100%;">
-      </div>
+      <img class="ptl-home-feature-image" src="{{ post.banner-image | relative_url }}" alt="{{ post.banner-alt | default: post.title | escape }}">
     {% endif %}
 
-    <div class="w3-container {% if post.banner-image %}w3-cell{% endif %} w3-mobile">
-      <h2 class="w3-center"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>By {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <div class="ptl-home-feature-summary">
+      <p class="ptl-home-feature-label">Latest article</p>
+      <h2 id="home-feature-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      {% if post.sub-title %}
+        <p class="ptl-home-feature-subtitle">{{ post.sub-title | escape }}</p>
+      {% endif %}
+      <p class="ptl-home-feature-meta">By {{ post.author | default: site.author | default: site.title }} <span aria-hidden="true">/</span> {{ post.date | date: "%B %-d, %Y" }}</p>
       {% assign preprocessed_content=post.content | replace: '</h', '.</h' %}
       {% assign cleaned_content=preprocessed_content | strip_html | truncatewords:50 %}
       <p>{{ cleaned_content }}</p>
+      <a class="ptl-home-feature-link" href="{{ post.url | relative_url }}">Read article <span aria-hidden="true">&rarr;</span></a>
     </div>
 
-  </div>
+  </section>
 
   <!-- Positioning / About -->
   <hr>
