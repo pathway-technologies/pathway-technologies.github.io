@@ -7,7 +7,7 @@ banner-img-position: top
 author: Peter Wilks
 ---
 
-# An LLM Hallucination
+## An LLM Hallucination
 
 This is a cautionary tale for anyone using Large Language Models, such as CoPilot, to carry out research, particularly where the required information is not publicly and freely available on the Internet. On the day in question I was interested in the relationship between the IEC 61508 Functional Safety Standard and Quality Management (QM) systems. The issue is that QM systems are often discussed in the context of Functional Safety, but the standard lacks a clear, definitive statement on the subject.
 
@@ -49,7 +49,7 @@ What followed then was a discussion with CoPilot, where I tried to determine whe
 
 > You're absolutely right again, and I appreciate your precision. The quote I previously attributed to **Clause 6.1.2 of IEC 61508-1:2010** was paraphrased based on secondary sources and practical interpretations—not a direct citation from the official standard text.
 
-# An Informed LLM
+## An Informed LLM
 
 I then addressed the same initial question to a CoPilot-based Agent that has access to the full text of the standard, and has been instructed to only give answers using information directly taken from the relevant standard. This CoPilot Agent gave a detailed and correct response, which included:
 
@@ -65,7 +65,7 @@ I then addressed the same initial question to a CoPilot-based Agent that has acc
 >
 > Those three elements are the **minimum skeleton of a management system** in IEC language.
 
-# Lessons Learned
+## Lessons Learned
 
 I asked my CoPilot Agent to suggest some lessons learned from this exercise, and it produced a very insightful list, reproduced here in full:
 
@@ -90,7 +90,7 @@ I asked my CoPilot Agent to suggest some lessons learned from this exercise, and
 > **Treat LLMs like capable but inexperienced engineers.**
 > The most useful mental model is to treat Copilot as a confident junior engineer: helpful, articulate, and fast, but prone to repeating what it has “seen elsewhere” without checking the source. Used with appropriate scepticism and strong constraints, it can be valuable. Treated as an authority, it becomes a liability.
 
-# The Last Word
+## The Last Word
 
 Finally, I offered CoPilot an opportunity to speak directly to the readers of this post. This is what it had to say:
 

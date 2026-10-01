@@ -181,9 +181,16 @@ body.ptl-page {
 
 .ptl-post-heading h1 {
   margin: 0;
-  padding-left: $ptl-space-sm;
-  border-left: 5px solid $ptl-color-accent;
+  color: $ptl-color-accent;
   font-size: 2.5rem;
+}
+
+.ptl-post-subtitle {
+  max-width: 72ch;
+  margin: $ptl-space-sm 0 0;
+  color: $ptl-color-muted;
+  font-size: 1.25rem;
+  line-height: 1.45;
 }
 
 .ptl-post-content {
@@ -365,6 +372,10 @@ body.ptl-page {
 
   .ptl-post-heading h1 {
     font-size: 2rem;
+  }
+
+  .ptl-post-subtitle {
+    font-size: 1.1rem;
   }
 
   .ptl-post-navigation {
