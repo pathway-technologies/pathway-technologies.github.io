@@ -5,6 +5,7 @@ permalink: /
 
 banner-image: /assets/images/AdobeStock_169936222.jpeg
 banner-image-style: cover
+banner-title-style: caption
 banner-title: Engineering for Safety-Critical Systems
 ---
 

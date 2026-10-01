@@ -33,6 +33,41 @@ $ptl-banner-height: 300px;
   background-size: cover;
 }
 
+.ptl-hero-feature {
+  width: 100%;
+  margin: 0 auto $ptl-space-lg;
+  background-color: $ptl-color-accent-soft;
+}
+
+.ptl-hero-feature .ptl-hero-banner {
+  min-height: 0;
+  height: clamp(220px, 32vw, 360px);
+}
+
+.ptl-hero-caption {
+  background-color: $ptl-color-accent-soft;
+}
+
+.ptl-hero-caption-inner {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: $ptl-space-md clamp(1rem, 3vw, 2rem);
+  border-left: 5px solid $ptl-color-accent;
+}
+
+.ptl-hero-caption-inner h1 {
+  margin: 0;
+  color: $ptl-color-accent;
+  font-size: 2rem;
+}
+
+.ptl-hero-caption-inner p {
+  max-width: 72ch;
+  margin: $ptl-space-xs 0 0;
+  color: $ptl-color-muted;
+  font-size: 1.1rem;
+}
+
 .ptl-hero-banner-photo {
   position: relative;
   height: $ptl-banner-height;
@@ -534,6 +569,18 @@ body.ptl-page {
 
   .ptl-page-subtitle {
     font-size: 1.1rem;
+  }
+
+  .ptl-hero-caption {
+    padding: 0;
+  }
+
+  .ptl-hero-caption-inner {
+    padding: $ptl-space-sm;
+  }
+
+  .ptl-hero-caption-inner h1 {
+    font-size: 1.65rem;
   }
 
   .ptl-about-brand {

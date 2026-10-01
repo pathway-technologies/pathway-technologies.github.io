@@ -10,12 +10,14 @@ layout: base
 # sub-title: Optional subtitle shown beneath the post title.
 ---
 
-<header class="ptl-post-heading">
-  <h1>{{ page.title | escape }}</h1>
-  {% if page.sub-title %}
-    <p class="ptl-post-subtitle">{{ page.sub-title | escape }}</p>
-  {% endif %}
-</header>
+{% unless page.banner-show %}
+  <header class="ptl-post-heading">
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.sub-title %}
+      <p class="ptl-post-subtitle">{{ page.sub-title | escape }}</p>
+    {% endif %}
+  </header>
+{% endunless %}
 
 <article class="ptl-post-content">
   <p class="ptl-post-meta">By {{ page.author | default: site.author | default: site.title }} <span aria-hidden="true">/</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
