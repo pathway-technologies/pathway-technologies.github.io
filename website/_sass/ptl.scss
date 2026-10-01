@@ -80,6 +80,8 @@ $ptl-banner-height: 300px;
 // Service page content structure
 
 .ptl-service-content {
+  padding-bottom: $ptl-space-lg;
+
   h2 {
     margin-top: $ptl-space-lg;
   }
@@ -95,6 +97,48 @@ $ptl-banner-height: 300px;
   h2:first-child {
     margin-top: 0;
   }
+}
+
+.ptl-page-subtitle {
+  max-width: 72ch;
+  margin: $ptl-space-sm 0 0;
+  color: $ptl-color-muted;
+  font-size: 1.25rem;
+  line-height: 1.45;
+}
+
+.ptl-service-intro {
+  max-width: 72ch;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.ptl-service-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: clamp(2rem, 6vw, 5rem);
+  row-gap: $ptl-space-lg;
+  padding-top: $ptl-space-lg;
+}
+
+.ptl-service-item {
+  min-width: 0;
+  padding-top: $ptl-space-sm;
+  border-top: 1px solid rgba(29, 45, 43, 0.2);
+}
+
+.ptl-service-item h2 {
+  margin: 0 0 $ptl-space-sm;
+  font-size: 1.5rem;
+}
+
+.ptl-service-item p {
+  max-width: 62ch;
+  color: $ptl-color-muted;
+}
+
+.ptl-service-item .ptl-button {
+  margin-top: $ptl-space-sm;
 }
 
 
@@ -382,8 +426,13 @@ body.ptl-page {
   }
 
   .ptl-about-intro,
-  .ptl-about-sections {
+  .ptl-about-sections,
+  .ptl-service-list {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ptl-page-subtitle {
+    font-size: 1.1rem;
   }
 
   .ptl-about-brand {

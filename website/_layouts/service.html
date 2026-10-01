@@ -2,14 +2,14 @@
 layout: base
 ---
 
-<section class="w3-container w3-padding-32">
-  <h1>{{ page.title }}</h1>
+<header class="ptl-page-heading">
+  <h1>{{ page.title | escape }}</h1>
 
   {% if page.subtitle %}
-    <p class="w3-large">{{ page.subtitle }}</p>
+    <p class="ptl-page-subtitle">{{ page.subtitle | escape }}</p>
   {% endif %}
-</section>
+</header>
 
-<section class="w3-container w3-padding-32 ptl-service-content">
+<article class="ptl-page-content ptl-service-content">
   {{ content }}
-</section>
+</article>
