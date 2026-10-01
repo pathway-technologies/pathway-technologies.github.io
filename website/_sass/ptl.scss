@@ -368,19 +368,23 @@ body.ptl-page {
   margin-bottom: 0.35rem;
 }
 
-.ptl-home-feature {
+.ptl-post-feature {
   display: grid;
   width: min(100%, 1120px);
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   align-items: stretch;
   gap: clamp(1.5rem, 4vw, 3.5rem);
-  margin: $ptl-space-lg auto;
+  margin: 0 auto;
   padding: clamp(1rem, 3vw, 2rem);
   border-top: 3px solid $ptl-color-accent;
   background-color: $ptl-color-accent-soft;
 }
 
-.ptl-home-feature-image {
+.ptl-post-feature-no-image {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.ptl-post-feature-image {
   display: block;
   width: 100%;
   height: 100%;
@@ -389,13 +393,13 @@ body.ptl-page {
   object-fit: cover;
 }
 
-.ptl-home-feature-summary {
+.ptl-post-feature-summary {
   align-self: center;
   min-width: 0;
   padding: $ptl-space-sm 0;
 }
 
-.ptl-home-feature-label {
+.ptl-post-feature-label {
   margin: 0 0 $ptl-space-xs;
   color: $ptl-color-accent;
   font-size: 0.85rem;
@@ -403,42 +407,48 @@ body.ptl-page {
   text-transform: uppercase;
 }
 
-.ptl-home-feature-summary h2 {
+.ptl-post-feature-summary h2 {
   margin: 0;
   font-size: 1.75rem;
 }
 
-.ptl-home-feature-summary h2 a {
+.ptl-post-feature-summary h2 a {
   color: $ptl-color-ink;
   text-decoration: none;
 }
 
-.ptl-home-feature-summary h2 a:hover {
+.ptl-post-feature-summary h2 a:hover {
   color: $ptl-color-accent;
   text-decoration: underline;
 }
 
-.ptl-home-feature-subtitle {
+.ptl-post-feature-subtitle {
   margin: $ptl-space-xs 0 0;
   color: $ptl-color-muted;
   font-size: 1.15rem;
 }
 
-.ptl-home-feature-meta {
+.ptl-post-feature-meta {
   margin: $ptl-space-sm 0;
   color: $ptl-color-muted;
   font-size: 0.9rem;
 }
 
-.ptl-home-feature-meta span {
+.ptl-post-feature-meta span {
   padding: 0 0.35rem;
   color: $ptl-color-accent;
 }
 
-.ptl-home-feature-link {
+.ptl-post-feature-link {
   display: inline-block;
   margin-top: $ptl-space-xs;
   font-weight: 650;
+}
+
+.ptl-post-feature-list {
+  display: grid;
+  gap: $ptl-space-lg;
+  margin: $ptl-space-lg 0;
 }
 
 // Footer spacing
@@ -501,20 +511,24 @@ body.ptl-page {
   .ptl-about-intro,
   .ptl-about-sections,
   .ptl-service-list,
-  .ptl-home-feature {
+  .ptl-post-feature {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .ptl-home-feature {
+  .ptl-post-feature-list {
+    gap: $ptl-space-md;
+  }
+
+  .ptl-post-feature {
     gap: $ptl-space-sm;
   }
 
-  .ptl-home-feature-image {
+  .ptl-post-feature-image {
     height: auto;
     min-height: 0;
   }
 
-  .ptl-home-feature-summary {
+  .ptl-post-feature-summary {
     padding-top: 0;
   }
 
