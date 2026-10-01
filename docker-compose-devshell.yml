@@ -1,7 +1,8 @@
 services:
   devshell:
+    # Use the github-pages builder, as that installs the required gems on startup by reading the Gemfile.
     image: github-pages-builder:latest
-    container_name: github-pages-builder-pathway-technologies-com
+    container_name: pathway-technologies-com-builder
     working_dir: /workspace
     volumes:
       - .:/workspace

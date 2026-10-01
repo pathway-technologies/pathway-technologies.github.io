@@ -13,5 +13,8 @@ bundle exec jekyll clean \
 bundle exec jekyll build \
     --destination "${ROOT_DIR}/public"
 
+bundle exec htmlproofer "${ROOT_DIR}/public" \
+    --disable-external
+
 echo
 echo "==> Validation complete"

@@ -27,7 +27,9 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "sissel.shopify-liquid"
+        "sissel.shopify-liquid",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
       ]
     }
   }

@@ -14,6 +14,10 @@
   border: none;
 }
 
+.w3-dropdown-hover:focus-within .w3-dropdown-content {
+  display: block;
+}
+
 // Hero Banner
 .ptl-hero-banner {
   width: 100%;
