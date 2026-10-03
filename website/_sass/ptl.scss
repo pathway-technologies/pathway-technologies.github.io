@@ -51,8 +51,34 @@ $ptl-banner-height: 300px;
 .ptl-hero-caption-inner {
   width: min(100%, 1120px);
   margin: 0 auto;
-  padding: $ptl-space-md clamp(1rem, 3vw, 2rem);
+  padding: 0 clamp(1rem, 3vw, 2rem);
   border-left: 5px solid $ptl-color-accent;
+}
+
+.ptl-hero-caption-content {
+  display: flex;
+  align-items: stretch;
+  gap: $ptl-space-md;
+}
+
+.ptl-hero-caption-copy {
+  min-width: 0;
+  padding: $ptl-space-md 0;
+}
+
+.ptl-hero-caption-logo-wrap {
+  flex: 0 0 min(9rem, 25vw);
+  width: min(9rem, 25vw);
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+
+.ptl-hero-caption-logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .ptl-hero-caption-inner h1 {
@@ -66,13 +92,6 @@ $ptl-banner-height: 300px;
   margin: $ptl-space-xs 0 0;
   color: $ptl-color-muted;
   font-size: 1.1rem;
-}
-
-.ptl-hero-caption-inner .ptl-hero-caption-brand {
-  margin-top: $ptl-space-sm;
-  color: $ptl-color-accent;
-  font-size: 0.9rem;
-  font-weight: 700;
 }
 
 .ptl-hero-banner-photo {
@@ -705,11 +724,23 @@ body.ptl-page {
   }
 
   .ptl-hero-caption-inner {
-    padding: $ptl-space-sm;
+    padding: 0 $ptl-space-sm;
+  }
+
+  .ptl-hero-caption-copy {
+    padding: $ptl-space-sm 0;
+  }
+
+  .ptl-hero-caption-content {
+    gap: $ptl-space-sm;
   }
 
   .ptl-hero-caption-inner h1 {
-    font-size: 1.65rem;
+    font-size: 1.4rem;
+  }
+
+  .ptl-hero-caption-inner p {
+    font-size: 1rem;
   }
 
   .ptl-about-brand {

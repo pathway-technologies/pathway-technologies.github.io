@@ -3,7 +3,6 @@ title: "The Legacy Codebase Challenge"
 layout: post
 
 banner-image: /assets/images/blog/20241105_Designer.jpeg
-banner-img-position: bottom
 author: Peter Wilks
 ---
 

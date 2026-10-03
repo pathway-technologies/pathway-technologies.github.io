@@ -3,7 +3,6 @@ title: "A Cautionary Tale"
 layout: post
 
 banner-image: /assets/images/blog/20260502_Designer.png
-banner-img-position: top
 author: Peter Wilks
 ---
 

@@ -3,7 +3,6 @@ title: "Why Qualifying Tools Under ISO 26262 is Essential"
 layout: post
 
 banner-image: /assets/images/blog/20250118_Designer.jpeg
-banner-img-position: top
 author: Peter Wilks
 ---
 

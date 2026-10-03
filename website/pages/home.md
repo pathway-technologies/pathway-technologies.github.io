@@ -6,8 +6,8 @@ permalink: /
 banner-image: /assets/images/AdobeStock_169936222.jpeg
 banner-image-style: cover
 banner-title-style: caption
-banner-title: Engineering for Safety-Critical Systems
 banner-brand: Pathway Technologies Ltd.
+banner-text: Engineering for Safety-Critical Systems
 ---
 
 <div class="w3-container w3-margin-top">

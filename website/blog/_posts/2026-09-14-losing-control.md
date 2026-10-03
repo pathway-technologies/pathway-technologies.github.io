@@ -3,7 +3,6 @@ title: "Losing Control"
 layout: post
 
 banner-image: /assets/images/blog/pexels-dmitriy-tarasenko-70199286-8480416.jpg
-banner-img-position: top
 author: Peter Wilks
 ---
 
